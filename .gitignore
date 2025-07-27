@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual Environments
+.venv/
+env/
+venv/
+ENV/
+*.env
+
+# Environment Variables
+.env
+*.env.*
+
+# FastAPI / Uvicorn
+*.log
+
+# Temporary Uploads
+tmp/
+*.tmp
+
+# FAISS index and metadata files
+*.faiss
+*.json
+data/*/index.faiss
+data/*/vectors.json
+data/*/metadata.json
+
+# Render build/exec scripts
+start.sh
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# VS Code / IDE files
+.vscode/
+.idea/
+*.swp
+
+# Jupyter (if used later)
+.ipynb_checkpoints/
+
+# Coverage/testing
+htmlcov/
+coverage.xml
+*.cover
+.tox/
+.pytest_cache/
